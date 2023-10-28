@@ -1,4 +1,4 @@
-# Simplified-File-Transfer-Protocol
+# Simplified File Transfer Protocol
 
 This is an implementation of a simplified version of the file transfer protocol. There are two separate connections made – a control connection used to send FTP commands and responses, and a data connection for sending and receiving data. The server waits on a predefined control port, and the control connection is made by the client. The control connection is kept open until the FTP session is over; however, the data connection can be created and destroyed by the server for each file transfer.
 
